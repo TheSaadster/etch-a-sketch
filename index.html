@@ -12,11 +12,12 @@
     <h1>Etch-A-Sketch</h1>
     <div class="container">
         <div class="buttons">
-            <button class="black">Black</button>
-            <button class="eraser">White</button>
-            <button class="random">RGB</button>
-            <input type="color" class="color-picker" value="black">
-            <button class="reset">Reset</button>
+            <button class="black" data-black>Black</button>
+            <button class="eraser" data-white>White</button>
+            <button class="random" data-random>RGB</button>
+            <input type="color" class="color-picker" value="black" data-color-picker>
+            <label><input type="checkbox" data-border> Borders</label>
+            <button class="reset" data-reset>Reset</button>
         </div>
         <div class="board">
 
