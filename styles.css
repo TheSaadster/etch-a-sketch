@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: rgb(0, 174, 255);
+}
+
+.buttons{
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height:500px;
+    width:100px;
+    border: 1px solid black;
+}
+
+button{
+    font-size:18px;
+    width:70px;
+    color: rgb(0, 174, 255);
+    background-color: rgb(0, 255, 200) ;
+    outline:none;
+    border:1px solid blue;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.color-picker{
+    
+    width:50px;
+    color: rgb(0, 174, 255);
+    background-color: rgb(0, 255, 200) ;
+    outline:none;
+    border:1px solid blue;
+    
+    border-radius: 5px;
+    cursor:pointer;
+}
+.board{
+    width:500px;
+    height:500px;
+    border: 1px solid black;
+    display:grid;
+    align-items: center;
+    border-left: none;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+p{
+    color:rgb(0, 174, 255);
+    font-size: 18px;
+}
+span{
+    color:rgb(0, 174, 255);
+    font-size: 18px;
+}
+
+.size-slider{
+    -webkit-appearance:none;
+    margin-top: 20px;
+    width: 200px;
+    outline:none;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgb(0,174,255) 16%, white 16%);
+    height:7px;
+    box-shadow: 0px 1px 5px 1px;
+    opacity: 0.7;
+}
+
+.size-slider:hover{
+    opacity: 1;
+}
+.size-slider::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor:pointer;
+    
+    background-color:rgb(0, 174, 255);
+
+}
+
+.size-slider::-moz-range-thumb{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor:pointer;
+    background-color:rgb(0, 174, 255);
+}
